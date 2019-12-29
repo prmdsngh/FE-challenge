@@ -1,0 +1,48 @@
+.MainPage {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height:100%;
+    padding: 0 20px;
+    clear: right;
+}
+
+.MainPage > div {
+    padding: 70px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 100px;  
+    background-color: inherit;
+}
+  
+.grid-item {
+    // background-color: #cccccc;
+    // border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+    text-justify: left
+}
+
+.grid-item2 {
+    // background-color: #cccccc;
+    // border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    text-align: left;
+    margin-left: 70px;
+    text-justify: left
+}
+
+.find-button {
+    background-color: green;
+    color: #ffffff;
+    width: 150px;
+    height: 75px;
+    cursor: pointer;
+}

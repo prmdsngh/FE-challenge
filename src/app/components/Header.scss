@@ -1,0 +1,35 @@
+.rightNavList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+}
+
+.rightNav {
+    float: right;
+}
+
+li {
+    float: left;
+}
+
+ul li {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+    height:50px;
+    width:100%;
+    top:0px;
+    left:0px;
+    background: #CCCCCC;
+    position:fixed;
+}
+
+.reset {
+    cursor: pointer;
+}
